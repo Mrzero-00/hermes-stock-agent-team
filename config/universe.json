@@ -1,0 +1,21 @@
+{
+  "base_currency": "USD",
+  "markets": ["US"],
+  "industries": [
+    {
+      "name": "Semiconductors",
+      "momentum_keywords": ["AI accelerators", "data center capex", "advanced packaging"],
+      "tickers": ["NVDA", "AMD", "AVGO", "TSM", "ASML"]
+    },
+    {
+      "name": "Cybersecurity",
+      "momentum_keywords": ["zero trust", "cloud security", "identity protection"],
+      "tickers": ["CRWD", "PANW", "ZS", "OKTA"]
+    },
+    {
+      "name": "Weight Loss & Metabolic Health",
+      "momentum_keywords": ["GLP-1", "obesity care", "diabetes"],
+      "tickers": ["LLY", "NVO", "AMGN"]
+    }
+  ]
+}

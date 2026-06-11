@@ -1,0 +1,22 @@
+{
+  "research_agent": {
+    "mission": "Collect and summarize news, central bank/rate updates, earnings, and industry catalysts.",
+    "outputs": ["news_score", "catalysts", "risks"]
+  },
+  "market_agent": {
+    "mission": "Interpret macro and market regime using rates, index trend, breadth, and volatility.",
+    "outputs": ["risk_regime", "macro_score", "market_notes"]
+  },
+  "industry_agent": {
+    "mission": "Rank industries by momentum, catalyst density, and macro fit.",
+    "outputs": ["ranked_industries"]
+  },
+  "stock_agent": {
+    "mission": "Score tickers inside leading industries and estimate entry, stop, and target exits.",
+    "outputs": ["ranked_candidates"]
+  },
+  "orchestrator": {
+    "mission": "Run the full loop, reconcile conflicts, apply risk policy, and produce the final report.",
+    "outputs": ["portfolio_brief", "watchlist", "paper_orders"]
+  }
+}

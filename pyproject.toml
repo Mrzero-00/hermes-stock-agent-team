@@ -1,0 +1,9 @@
+[project]
+name = "hermes-stock-agent-team"
+version = "0.1.0"
+description = "Codex/Hermes-style stock research agent team scaffold"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+hermes-stock-team = "hermes_stock_team.cli:main"
